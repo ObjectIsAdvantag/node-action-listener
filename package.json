@@ -1,6 +1,6 @@
 {
   "name": "node-action-listener",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "description": "ActionListener pattern implementation in NodeJS",
   "main": "index.js",
   "scripts": {
