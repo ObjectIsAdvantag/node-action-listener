@@ -1,11 +1,23 @@
 {
   "name": "node-action-listener",
-  "version": "1.0.0",
+  "version": "v1.0.1",
   "description": "ActionListener pattern implementation in NodeJS",
   "main": "index.js",
   "scripts": {
     "test": "node tests/test.js"
   },
   "author": "Stève Sfartz",
-  "license": "MIT"
+  "license": "MIT",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ObjectIsAdvantag/node-action-listener.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ObjectIsAdvantag/node-action-listener/issues"
+  },
+  "homepage": "https://github.com/ObjectIsAdvantag/node-action-listener#readme",
+  "keywords": [
+    "NodeJS",
+    "Pattern"
+  ]
 }

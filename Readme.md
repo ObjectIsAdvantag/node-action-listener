@@ -1,6 +1,6 @@
-# ActionListener pattern implement in nodejs
+# ActionListener pattern implementation in NodeJS
 
-Goal is to implement such a behavior :
+Implements this behavior :
 
 ``` node
 
@@ -12,6 +12,5 @@ lib.addListener(function(event) {
     console.log("new event received");
 });
 
-lib.fireEvent
-
+lib.fireEvent({'id':1, 'message':"this is it, fired!"});
 ```
