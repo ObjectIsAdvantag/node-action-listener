@@ -1,15 +1,17 @@
-# Sample that implements the ActionListener pattern in node
+# ActionListener pattern implement in nodejs
 
 Goal is to implement such a behavior :
 
 ``` node
 
-ActionListenerPattern = require('ActionListenerPattern');
+ActionListenerPattern = require('node-action-listener');
 
-lib = new ActionListenerPattern();
+var lib = new ActionListenerPattern();
 
 lib.addListener(function(event) {
     console.log("new event received");
 });
+
+lib.fireEvent
 
 ```

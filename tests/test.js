@@ -1,6 +1,6 @@
-ListenerPattern = require('./listener');
+ActionListenerPattern = require('../lib');
 
-lib = new ListenerPattern();
+lib = new ActionListenerPattern();
 
 lib.addListener(function(event) {
     console.log("new event received: " + JSON.stringify(event));
