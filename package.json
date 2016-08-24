@@ -1,0 +1,11 @@
+{
+  "name": "node-action-listener",
+  "version": "1.0.0",
+  "description": "ActionListener pattern implement in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Stève Sfartz",
+  "license": "MIT"
+}
